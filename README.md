@@ -15,9 +15,9 @@ Caffeine Tracker is a simple tool for users to track their caffeine intake each 
 
 ## Initial Setup
 
-Clone the repo
+Step 1: Clone the repo
 
-run NPM install from root directory
+Step 2: run NPM install from root directory
 
 > npm install 
 

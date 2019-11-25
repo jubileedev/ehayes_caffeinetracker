@@ -1,3 +1,4 @@
+![alt text](https://raw.githubusercontent.com/jubileedev/ehayes_caffeinetracker/dfd90152ddc06db1c40e0259ffb7bdf21f585095/Screen%20Shot%202019-11-24%20at%209.32.19%20PM.png)
 
 
 ## About Caffeine Tracker

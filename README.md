@@ -17,18 +17,28 @@ Caffeine Tracker is a simple tool for users to track their caffeine intake each 
 
 Step 1: Clone the repo
 
-Step 2: run NPM install from root directory
+Step 2: cd into root of project directory
+
+> cd *projectName*
+
+Step 3: run NPM install from root directory
 
 > npm install 
 
-Step 3: Setup your .env file to put to your mysql db setup
+Step 4: run Composer to load dependencies from root directory
 
-Step 4: Pre-load that database with 5 unique drinks provided from instructions
+> composer install
+
+Step 5: Rename .env_example to *.env* and put your db credentials you want this project to use
+
+Step 6: A Drinks DB Seeders was provided. If you wish to pre-load the database with 5 unique drinks run the following command
 
 > php artisan db:seed
 
-Step 5: Run within your browser, if you need to quickly load it up use php server
+Step 7: run in browser
 
 > php artisan serve
+
+Step 8: Enjoy
 
 

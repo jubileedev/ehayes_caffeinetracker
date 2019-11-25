@@ -32,14 +32,18 @@ Step 4: run Composer to load dependencies from root directory
 
 Step 5: Rename .env_example to *.env* and put your db credentials you want this project to use
 
-Step 6: A *Drinks DB Seeder* was provided. If you wish to pre-load the database with 5 unique drinks run the following command
+Step 6: Migrate tables to database
+
+> php artisan migrate
+
+Step 7: A *Drinks DB Seeder* was provided. If you wish to pre-load the database with 5 unique drinks run the following command
 
 > php artisan db:seed
 
-Step 7: run in browser
+Step 8: run in browser
 
 > php artisan serve
 
-Step 8: Enjoy
+Step 9: Enjoy
 
 

@@ -21,6 +21,14 @@ Step 2: run NPM install from root directory
 
 > npm install 
 
-Step 3: Pre-load that database with 5 unique drinks provided from instructions
+Step 3: Setup your .env file to put to your mysql db setup
+
+Step 4: Pre-load that database with 5 unique drinks provided from instructions
 
 > php artisan db:seed
+
+Step 5: Run within your browser, if you need to quickly load it up use php server
+
+> php artisan serve
+
+
